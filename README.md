@@ -31,18 +31,6 @@ ShortDelay() - half of Delay();
 Demo Code
 ===
 
-/*
- * Author: C2C Derek Titus
- * Robot Movement Demo Code
- * Use to make sure robot is operating properly and can be used as 
- * a template for other projects
- */
-
-
-
-#include <msp430.h>
-#include "GeneralMovement.h"
-
 int main(void) {
 
 	WDTCTL = WDTPW|WDTHOLD;                 // stop the watchdog timer
